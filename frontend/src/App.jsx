@@ -15,6 +15,7 @@ import RiskAlerts from "./pages/RiskAlerts";
 import HealthHistory from "./pages/HealthHistory";
 import CognitiveReactionTest from "./pages/CognitiveReactionTest";
 import Setting from "./pages/Setting";
+import CognitiveReactionTest from "./pages/CognitiveReactionTest";
 
 import "./App.css";
 import "./theme.css";
@@ -178,6 +179,11 @@ function AppLayout() {
             <Route
               path="*"
               element={<Navigate to="/" replace />}
+            />
+
+            <Route
+              path="/cognitive-test"
+              element={<CognitiveReactionTest />}
             />
           </Routes>
         </div>
