@@ -13,7 +13,6 @@ import CrewOverview from "./components/CrewOverview";
 import HealthMonitoring from "./pages/HealthMonitoring";
 import RiskAlerts from "./pages/RiskAlerts";
 import HealthHistory from "./pages/HealthHistory";
-import CognitiveReactionTest from "./pages/CognitiveReactionTest";
 import Setting from "./pages/Setting";
 import CognitiveReactionTest from "./pages/CognitiveReactionTest";
 
